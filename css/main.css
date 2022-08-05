@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Tahoma, Arial;
+}
+
+.container{
+  margin: 20px auto;
+  width: 1000px;
+}
+.row{
+  display: flex;
+}
+hr{
+  border: 1px solid #EEE;
+}
+
+.game-info{
+  display: flex;
+}
+.game-info .game-name{
+  flex: 1;
+}
+.game-info .category span{
+  text-transform: capitalize;
+  color: #e91e63;
+  font-weight: bold;
+}
+
+.hangman-drow{
+  flex: 1;
+  background-color: #f8f8f8;
+  padding: 20px;
+  height: 324px;
+}
+.hangman-drow .the-draw{
+  width: 60px;
+  height: 280px;
+  border-bottom: 4px solid;
+}
