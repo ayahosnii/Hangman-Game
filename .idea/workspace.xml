@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0b1736f-7f9c-43c7-929c-37f0727937eb" name="Changes" comment="..">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="c0b1736f-7f9c-43c7-929c-37f0727937eb" name="Changes" comment="Random Property And Value" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +59,7 @@
       <workItem from="1659702043777" duration="631000" />
       <workItem from="1659710652305" duration="7248000" />
       <workItem from="1659741468293" duration="837000" />
-      <workItem from="1659792142824" duration="15162000" />
+      <workItem from="1659792142824" duration="15902000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="..">
       <created>1659726879274</created>
@@ -72,7 +67,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٠١" />
       <updated>1659726879274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL؜٠٠٠٠٢" summary="Random Property And Value">
+      <created>1659823133207</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٢" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٢" />
+      <updated>1659823133207</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="Random Property And Value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Random Property And Value" />
   </component>
 </project>
