@@ -62,3 +62,25 @@ let randomValueValue = randomPropValue[randomValueNumber]
 
 //Set Category Info
 document.querySelector('.game-info .category span').innerHTML = randomPropName
+
+//Select Letters Guess Element
+let lettersGuessContainer = document.querySelector(".letters-guess")
+
+//Convert Chosen Word To Array
+let lettersAndSpace = Array.from(randomValueValue)
+
+lettersAndSpace.forEach(letter => {
+  //Create Empty Span
+  let emptySpan = document.createElement("span")
+
+  //If Letter Empty Span
+  if (letter === ' ') {
+
+    //Add Class To The Span
+    emptySpan.className = 'with-space';
+
+  }
+  //Append Span To The Letters Guess
+  lettersGuessContainer.appendChild(emptySpan)
+});
+
