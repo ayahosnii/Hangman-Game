@@ -53,7 +53,7 @@ console.log(randomPropName)
 let randomPropValue = words[randomPropName] //=> the array of category
 
 
-//3- Get Random Value Of That Random Array [1,2,3..etc]
+//3- Get Random Key Of That Random Array [1,2,3..etc]
 let randomValueNumber = Math.floor(Math.random() * randomPropValue.length)
 
 
@@ -127,6 +127,20 @@ document.addEventListener("click",  (e)=>{
 
       //Add Class Wrong On The Draw Element
       theDraw.classList.add(`wrong-${wrongAttempts}`)
+      console.log(wrongAttempts)
+
+      if (wrongAttempts === 8){
+        endGame();
+        lettersContainer.classList.add("finished")
+      }
     }
   }
-})
+});
+
+function endGame(){
+  let div = document.createElement("div")
+  let divText = document.createTextNode(`Game Over, The Word Is ${randomValueValue}`)
+  div.appendChild(divText)
+  div.className='popup'
+  document.body.appendChild(div)
+}

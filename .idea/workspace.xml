@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0b1736f-7f9c-43c7-929c-37f0727937eb" name="Changes" comment="Generate Guess Letters">
+    <list default="true" id="c0b1736f-7f9c-43c7-929c-37f0727937eb" name="Changes" comment="The Draw Logic And Design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <workItem from="1659741468293" duration="837000" />
       <workItem from="1659792142824" duration="27324000" />
       <workItem from="1659883378027" duration="1833000" />
-      <workItem from="1659888895262" duration="1813000" />
+      <workItem from="1659888895262" duration="3774000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="..">
       <created>1659726879274</created>
@@ -91,7 +90,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٠٤" />
       <updated>1659835109176</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL؜٠٠٠٠٥" summary="The Draw Logic And Design">
+      <created>1659890798038</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٥" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٥" />
+      <updated>1659890798038</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +117,7 @@
     <MESSAGE value=".." />
     <MESSAGE value="Random Property And Value" />
     <MESSAGE value="Generate Guess Letters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generate Guess Letters" />
+    <MESSAGE value="The Draw Logic And Design" />
+    <option name="LAST_COMMIT_MESSAGE" value="The Draw Logic And Design" />
   </component>
 </project>
