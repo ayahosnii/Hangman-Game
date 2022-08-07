@@ -83,4 +83,50 @@ lettersAndSpace.forEach(letter => {
   //Append Span To The Letters Guess
   lettersGuessContainer.appendChild(emptySpan)
 });
+let guessSpans = document.querySelectorAll(".letters-guess span");
+let wrongAttempts = 0;
 
+let theDraw = document.querySelector(".hangman-draw")
+
+//Set The Chose
+
+
+
+document.addEventListener("click",  (e)=>{
+  let theStatus = false;
+
+
+  if (e.target.className === 'letter-box') {
+    e.target.classList.add('clicked')
+
+    //Get Clicked Letter
+    let theClickedLetter = e.target.innerHTML.toLowerCase()
+    lettersAndSpace.forEach((wordLetter, Wordindex) => {
+      if (theClickedLetter == wordLetter) {
+        theStatus = true;
+        document.getElementById('clicked').play();
+        //Loop All Guess span
+        guessSpans.forEach((span, spanIndex) => {
+
+          if (Wordindex === spanIndex) {
+
+            span.innerHTML = theClickedLetter;
+
+
+          }
+        });
+
+      }
+
+    })
+
+    console.log(theStatus)
+    if (theStatus !== true) {
+      document.getElementById('error').play();
+      wrongAttempts++;
+
+      //Add Class Wrong On The Draw Element
+      theDraw.classList.add(`wrong-${wrongAttempts}`)
+    }
+  }
+})
